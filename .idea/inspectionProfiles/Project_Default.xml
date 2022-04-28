@@ -6,29 +6,11 @@
       <option name="myIgnoreVendorSpecificProperties" value="false" />
       <option name="myCustomPropertiesList">
         <value>
-          <list size="4">
-            <item index="0" class="java.lang.String" itemvalue="transition" />
-            <item index="1" class="java.lang.String" itemvalue="logical-width" />
-            <item index="2" class="java.lang.String" itemvalue="logical-height" />
-            <item index="3" class="java.lang.String" itemvalue="scrollbar-width" />
-          </list>
-        </value>
-      </option>
-    </inspection_tool>
-    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-      <Languages>
-        <language minSize="72" name="JavaScript" />
-      </Languages>
-    </inspection_tool>
-    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="myValues">
-        <value>
           <list size="1">
-            <item index="0" class="java.lang.String" itemvalue="ga(" />
+            <item index="0" class="java.lang.String" itemvalue="transition" />
           </list>
         </value>
       </option>
-      <option name="myCustomValuesEnabled" value="true" />
     </inspection_tool>
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
@@ -52,7 +34,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="7">
+          <list size="8">
             <item index="0" class="java.lang.String" itemvalue="dsc" />
             <item index="1" class="java.lang.String" itemvalue="discord" />
             <item index="2" class="java.lang.String" itemvalue="aiohttp" />
@@ -60,6 +42,7 @@
             <item index="4" class="java.lang.String" itemvalue="simplegist" />
             <item index="5" class="java.lang.String" itemvalue="matplotlib" />
             <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="dotenv" />
           </list>
         </value>
       </option>
@@ -74,7 +57,6 @@
           <option value="E117" />
           <option value="E712" />
           <option value="E265" />
-          <option value="W605" />
         </list>
       </option>
     </inspection_tool>
