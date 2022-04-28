@@ -1,45 +1,33 @@
-![Foodle Header](https://raw.githubusercontent.com/JasonLovesDoggo/JasonLovesDoggo.github.io/master/foodle/Img/og_1200x630.png)
-<br/>
+# PollR
+
+Django poll app is a full featured polling app. You have to register in this app to show the polls and to vote. If you already voted you can not vote again. Only the owner of a poll can add poll , edit poll, update poll, delete poll , add choice, update choice, delete choice and end a poll. If a poll is ended it can not be voted. Ended poll only shows user the final result of the poll. There is a search option for polls. Also user can filter polls by name, publish date, and by number of voted. Pagination will work even after applying filter.
+
+<h1>Getting Started</h1>
+<p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p>
+
+<h2>Prerequisites</h2>
+<code>python== 3.8 or up and django~=4.0 or up</code>
+
+
+<h2>To migrate the database open terminal in project directory and type</h2>
+<code>python manage.py makemigrations</code><br>
+<code>python manage.py migrate</code>
+
+<h2>To use admin panel you need to create superuser using this command </h2>
+<code>python manage.py createsuperuser</code>
+
+<h2>To Create some dummy text data for your app follow the step below:</h2>
+<code>pip install faker</code>
+<code>python manage.py shell</code>
+<code>import seeder</code>
+<code>seeder.seed_all(30)</code>
+<p>Here 30 is a number of entry. You can use it as your own</p>
+
+<h2> To run the program in local server use the following command </h2>
+<code>python manage.py runserver</code>
+
+<p>Then go to http://127.0.0.1:8000 in your browser</p>
+
 <div align="center">
- <p>
-  <a href="https://nasoj.me/foodle/" ><img src="https://img.shields.io/github/repo-size/JasonLovesDoggo/JasonLovesDoggo.github.io.svg" alt="GitHub repo size"/></a>
- <a href="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" alt="pages-build-deployment"></a>
-<a href="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/actions/workflows/UpdateSitemap.yml"><img src="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/actions/workflows/UpdateSitemap.yml/badge.svg" alt="Update Sitemap"></a>
-<a href="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/actions/workflows/updateversion.yml"><img src="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/actions/workflows/updateversion.yml/badge.svg?branch=master" alt="UpdateVersion"></a></p>
-
+    <h3>========!! Pizza !!!=========</h3>
 </div>
-
-# My personal website / portfolio
-
-#### hosted via GitHub pages and uses cloudflare dns and a namecheap domain                                                                                                                       (thank you github student pack)
-
-### [URL](https://nasoj.me)
-
-The /projects page was generated with GitFolio
-
-The /Bella page's photos are stored backblaze bucket (did a bit of cloudflare reworking to make it look better)
- 
-                                  
-                                  
-````
- cd foodle
-npm run build
-````
-                                     
-```
-cd ./projects
-gitfolio update
-``` 
-
-
-<details>
-<summary>TODO</summary>
-<br>
-1. Make the /Bella page (currently /bella/tempdir) a smooth/long scrolling page (start with a static looking page then prompt the user to scroll) 
-see https://pixieset.com/example/ for more examples
-
-2. https://en.m.wikipedia.org/wiki/Lists_of_foods USE this
-
-3. Use javascript:location.reload(true) to auto-update the game 
-4. Check if there is a wakatime api and if there is use it to display weekly statistics via projects or main page
-</details>
