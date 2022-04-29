@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from . import views
+from django.conf.urls import handler404  #, handler403, handler400, handler500)
+#handler400 = 'pollr.views.bad_request'
+#handler403 = 'pollr.views.permission_denied'
+handler404 = 'pollr.views.handler404'
+#handler500 = 'pollr.views.server_error'
 
 urlpatterns = [
     path('', views.home, name='home'),
