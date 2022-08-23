@@ -35,7 +35,7 @@ if exists('.env'):
     load_dotenv()  # local development
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ['.nasoj.me', '127.0.0.1']
+ALLOWED_HOSTS = ['.jasoncodes.ca', '127.0.0.1']
 
 
 # Application definition
